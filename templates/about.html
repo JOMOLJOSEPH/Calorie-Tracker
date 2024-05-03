@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>About Us</title>
+ <style>
+ 
+ </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#" style="color: black;">NutriTrack</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" style="color: black;" href="{% url 'home' %}">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" style="color: black;" href="{% url 'about' %}">About <span class="sr-only">(current)</span></a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" style="color: black;" href="{% url 'contact' %}">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+ 
+    <div class="content text-center" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <h1 class="text-center mb-4">About Us</h1>
+            <p>A calorie tracking app is a valuable tool for individuals looking to manage their weight and improve their overall health. By allowing users to monitor their calorie intake and expenditure,
+               these apps offer insight into their dietary habits and physical activity levels. With features such as food databases, meal logging, and exercise tracking, users can easily keep track of their daily calorie consumption and ensure they are meeting their nutritional needs.</p>
+               <p> Goal setting and progress tracking features provide motivation and accountability, helping users stay on track with their weight loss or fitness goals. Additionally, many calorie apps offer educational resources and community support to empower users to make informed choices about their diet and lifestyle. Overall,
+                 a calorie tracking app can be a powerful tool for anyone looking to take control of their health and make positive changes to their eating habits and fitness routine.</p>
+        </div>
+    </div> 
+    </div>
+  </div>
+
+
+  <!-- Bootstrap JS and Popper.js -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
